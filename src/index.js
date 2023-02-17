@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import Counter from './components/Counter';
 import { PrintName } from './components/PrintName';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+import { UseStateWithArrays } from './components/UseStateWithArrays';
 root.render(
   <React.StrictMode>
-    <Counter />
-    <PrintName />
+    <UseStateWithArrays />
   </React.StrictMode>
 );
 
